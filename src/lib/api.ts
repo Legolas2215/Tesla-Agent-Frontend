@@ -1,6 +1,6 @@
 import type { LoginRequest, LoginResponse, ChatRequest, ChatResponse } from '@/types/api';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://semistimulating-marlen-intermittent.ngrok-free.dev/';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://semistimulating-marlen-intermittent.ngrok-free.dev';
 
 class ApiError extends Error {
   constructor(
